@@ -1,0 +1,40 @@
+{
+  "name": "express-typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prebuild": "",
+    "build": "",
+    "prestart": "",
+    "start": "",
+    "start-dev": "nodemon --config \"./nodemon.json\"/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmlamarche/express-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmlamarche/express-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rmlamarche/express-typescript-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  }
+}
